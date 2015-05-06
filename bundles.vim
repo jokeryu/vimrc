@@ -59,6 +59,9 @@ Plugin 'Lokaltog/vim-easymotion'
 Plugin 'pangloss/vim-javascript'
 Plugin 'nono/jquery.vim'
 Plugin 'tpope/vim-haml'
+Plugin 'AtsushiM/search-parent.vim'
+Plugin 'jokeryu/sass-compile.vim'
+" Plugin 'AtsushiM/sass-compile.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
