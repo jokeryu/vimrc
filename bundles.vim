@@ -61,6 +61,8 @@ Plugin 'nono/jquery.vim'
 Plugin 'tpope/vim-haml'
 Plugin 'AtsushiM/search-parent.vim'
 Plugin 'jokeryu/sass-compile.vim'
+Plugin 'maksimr/vim-jsbeautify'
+Plugin 'beautify-web/js-beautify'
 " Plugin 'AtsushiM/sass-compile.vim'
 
 call vundle#end()            " required

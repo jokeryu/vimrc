@@ -113,6 +113,14 @@ let g:sass_compile_option = '-t compressed'
 let g:sass_compile_beforecmd = ''
 let g:sass_compile_aftercmd = 'autoprefixer ${sasscompiledist} && notify-send "[sass] autocompile completed"'
 
+""" js-beautify
+autocmd FileType javascript noremap <leader><c-f> :call JsBeautify()<cr>
+autocmd FileType html noremap <leader><c-f> :call HtmlBeautify()<cr>
+autocmd FileType css noremap <leader><c-f> :call CSSBeautify()<cr>
+autocmd FileType javascript vnoremap <leader><c-f> :call RangeJsBeautify()<cr>
+autocmd FileType html vnoremap <leader><c-f> :call RangeHtmlBeautify()<cr>
+autocmd FileType css vnoremap <leader><c-f> :call RangeCSSBeautify()<cr>
+
 "------------------
 " useful functions
 "------------------
