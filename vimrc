@@ -116,7 +116,13 @@ let g:sass_compile_cssdir = ['css', 'stylesheet']
 let g:sass_compile_cssfile = ['style.css']
 let g:sass_compile_option = '-t compressed'
 let g:sass_compile_beforecmd = ''
-let g:sass_compile_aftercmd = 'autoprefixer ${sasscompiledist} && notify-send "[sass] autocompile completed"'
+let g:sass_compile_aftercmd = ''
+
+for f in g:sass_compile_cssfile
+    let g:sass_compile_aftercmd .= 'if [ -w ${sasscompiledist}'.f.' ];'
+    let g:sass_compile_aftercmd .= 'then autoprefixer ${sasscompiledist}'.f.'&&'
+    let g:sass_compile_aftercmd .= 'notify-send "[sass] compile '.f.' completed";fi;'
+endfor
 
 """ js-beautify
 autocmd FileType javascript noremap <leader><c-f> :call JsBeautify()<cr>
