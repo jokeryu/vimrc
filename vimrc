@@ -64,7 +64,7 @@ autocmd Syntax javascript set syntax=jquery
 
 """ color scheme
 set background=dark
-color desert
+colorscheme molokai
 
 "-----------------
 " Plugin Settings

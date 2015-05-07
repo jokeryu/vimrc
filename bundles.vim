@@ -9,13 +9,7 @@ Plugin 'gmarik/Vundle.vim'
 "---------------
 " Color Schemes
 "---------------
-" Plugin 'altercation/vim-colors-solarized'
-" Plugin 'rickharris/vim-blackboard'
-" Plugin 'rickharris/vim-monokai'
-" Plugin 'Lokaltog/vim-distinguished'
-" Plugin 'chriskempson/vim-tomorrow-theme'
-" Plugin 'fisadev/fisa-vim-colorscheme'
-Plugin 'fugalh/desert.vim'
+Plugin 'flazz/vim-colorschemes'
 
 "--------------
 " IDE Features
