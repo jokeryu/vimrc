@@ -105,6 +105,10 @@ let g:neosnippet#snippets_directory='~/.vim/bundle/vim-snippets/snippets'
 """ gundo
 nnoremap <F5> :GundoToggle<CR>
 
+""" easymotion
+nmap <Leader><Leader>s <Plug>(easymotion-sn)
+xmap <Leader><Leader>s <Plug>(easymotion-sn)
+
 """ sass-compile
 let g:sass_compile_auto = 1
 let g:sass_compile_file = ['scss', 'sass']
