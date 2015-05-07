@@ -58,6 +58,7 @@ Plugin 'jokeryu/sass-compile.vim'
 Plugin 'maksimr/vim-jsbeautify'
 Plugin 'beautify-web/js-beautify'
 " Plugin 'AtsushiM/sass-compile.vim'
+Plugin 'marijnh/tern_for_vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
