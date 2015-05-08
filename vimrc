@@ -144,6 +144,12 @@ nnoremap <c-l> <c-w>l
 """ w!! to sudo & write a file
 cmap w!! %!sudo tee >/dev/null %
 
+""" map WQ
+:command! WQ wq
+:command! Wq wq
+:command! W w
+:command! Q q
+
 """ Quickly edit/reload the vimrc file
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
