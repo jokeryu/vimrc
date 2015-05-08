@@ -112,9 +112,9 @@ xmap <Leader><Leader>s <Plug>(easymotion-sn)
 """ sass-compile
 let g:sass_compile_auto = 1
 let g:sass_compile_file = ['scss', 'sass']
-let g:sass_compile_cssdir = ['css', 'stylesheet']
+let g:sass_compile_cssdir = ['css']
 let g:sass_compile_cssfile = ['style.css']
-let g:sass_compile_option = '-t compressed'
+let g:sass_compile_option = '--compass -t compressed'
 let g:sass_compile_beforecmd = ''
 let g:sass_compile_aftercmd = ''
 
