@@ -24,4 +24,6 @@ cp ~/.vim/fonts/SourceCodePro-Regular-Powerline.otf ~/.fonts/
 ``` sh
 sudo npm install autoprefixer -g
 gem install compass sass
+
+cd bundle/tern_for_vim && npm install
 ```
