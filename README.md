@@ -15,7 +15,7 @@ git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/
 sudo pacman -S ctags --needed
 ```
 
-### resources
+### Resources
 ``` sh
 cp ~/.vim/fonts/SourceCodePro-Regular-Powerline.otf ~/.fonts/
 ```
