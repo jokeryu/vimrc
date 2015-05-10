@@ -153,8 +153,10 @@ cmap w!! %!sudo tee >/dev/null %
 :command! Q q
 
 """ Quickly edit/reload the vimrc file
-nmap <silent> <leader>ev :e $MYVIMRC<CR>
-nmap <silent> <leader>sv :so $MYVIMRC<CR>
+:command! EV :e $MYVIMRC
+:command! SV :so $MYVIMRC
+" nmap <silent> <leader>ev :e $MYVIMRC<CR>
+" nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
 """ shift tabs
 map <silent> <S-TAB> :tabnext<CR>
