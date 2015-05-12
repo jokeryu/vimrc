@@ -22,6 +22,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
 Plugin 'vim-scripts/fcitx.vim'
 Plugin 'sjl/gundo.vim'
+Plugin 'xolox/vim-misc'
+Plugin 'xolox/vim-session'
 
 "------------------
 " Code Completions
