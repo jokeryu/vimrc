@@ -121,9 +121,10 @@ let g:sass_compile_beforecmd = ''
 let g:sass_compile_aftercmd = ''
 
 for f in g:sass_compile_cssfile
-    let g:sass_compile_aftercmd .= 'if [ -w ${sasscompiledist}'.f.' ];'
-    let g:sass_compile_aftercmd .= 'then autoprefixer ${sasscompiledist}'.f.'&&'
-    let g:sass_compile_aftercmd .= 'notify-send "[sass] compile '.f.' completed";fi;'
+    let g:sass_compile_aftercmd .= 'if [ -w ${sasscompiledist}'.f.' ];then '
+    let g:sass_compile_aftercmd .= 'autoprefixer ${sasscompiledist}'.f.'&&'
+    let g:sass_compile_aftercmd .= 'notify-send "[sass] compile '.f.' completed";'
+    let g:sass_compile_aftercmd .= 'fi;'
 endfor
 
 """ js-beautify
