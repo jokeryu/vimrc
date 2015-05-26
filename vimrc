@@ -105,6 +105,9 @@ let g:neosnippet#snippets_directory='~/.vim/bundle/vim-snippets/snippets'
 """ gundo
 nnoremap <F5> :GundoToggle<CR>
 
+""" tagbar
+nnoremap <F7> :TagbarToggle <CR>
+
 """ easymotion
 nmap <Leader>s <Plug>(easymotion-s)
 xmap <Leader>s <Plug>(easymotion-s)
