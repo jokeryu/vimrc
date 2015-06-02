@@ -58,10 +58,15 @@ Plugin 'nono/jquery.vim'
 Plugin 'tpope/vim-haml'
 Plugin 'AtsushiM/search-parent.vim'
 Plugin 'jokeryu/sass-compile.vim'
+" Plugin 'AtsushiM/sass-compile.vim'
 Plugin 'maksimr/vim-jsbeautify'
 Plugin 'beautify-web/js-beautify'
-" Plugin 'AtsushiM/sass-compile.vim'
 Plugin 'marijnh/tern_for_vim'
+
+"-----
+" PHP
+"-----
+Plugin 'spf13/PIV'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
