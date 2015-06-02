@@ -42,6 +42,7 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'tpope/vim-surround'
 Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'godlygeek/tabular'
 
 "-----------------
 " Fast Navigation
