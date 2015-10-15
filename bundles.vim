@@ -54,10 +54,11 @@ Plugin 'Lokaltog/vim-easymotion'
 " Web Front-end
 "---------------
 Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 Plugin 'nono/jquery.vim'
 Plugin 'tpope/vim-haml'
 Plugin 'AtsushiM/search-parent.vim'
-Plugin 'jokeryu/sass-compile.vim'
+" Plugin 'jokeryu/sass-compile.vim'
 " Plugin 'AtsushiM/sass-compile.vim'
 Plugin 'maksimr/vim-jsbeautify'
 Plugin 'beautify-web/js-beautify'
