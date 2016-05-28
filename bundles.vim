@@ -57,17 +57,17 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'nono/jquery.vim'
 Plugin 'tpope/vim-haml'
-Plugin 'AtsushiM/search-parent.vim'
-" Plugin 'jokeryu/sass-compile.vim'
-" Plugin 'AtsushiM/sass-compile.vim'
 Plugin 'maksimr/vim-jsbeautify'
 Plugin 'beautify-web/js-beautify'
 Plugin 'marijnh/tern_for_vim'
 
+"Haskell
+Plugin 'bitc/vim-hdevtools'
+
 "-----
 " PHP
 "-----
-Plugin 'spf13/PIV'
+" Plugin 'spf13/PIV'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

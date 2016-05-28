@@ -59,6 +59,7 @@ autocmd FileType coffee,javascript setlocal tabstop=4 shiftwidth=4 softtabstop=4
 autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4 textwidth=120
 autocmd FileType html,xhtml,haml setlocal tabstop=4 shiftwidth=4 softtabstop=4 textwidth=0
 autocmd FileType sass,scss,css setlocal tabstop=4 shiftwidth=4 softtabstop=4 textwidth=120
+autocmd FileType vue setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=120
 
 autocmd Syntax javascript set syntax=jquery
 
@@ -115,7 +116,7 @@ nmap <Leader><Leader>s <Plug>(easymotion-sn)
 xmap <Leader><Leader>s <Plug>(easymotion-sn)
 
 """ sass-compile
-let g:sass_compile_auto = 1
+let g:sass_compile_auto = 0
 let g:sass_compile_file = ['scss', 'sass']
 let g:sass_compile_cssdir = ['css']
 let g:sass_compile_cssfile = ['style.css']

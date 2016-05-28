@@ -58,3 +58,9 @@ eslintrc
     }
 }
 ```
+
+### Haskell
+```
+pacman -S cabal-install happy
+cabal install hdevtools hlint
+```
